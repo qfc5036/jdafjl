@@ -12,12 +12,10 @@ def sum_n(n):
 
 def print_n(s,n):
   if n==0:
-    return 
-  elif n==1:
-    return print(s)
+    return n
   else:
-    return print_n(s,n-1)
-
+   print(s) 
+   print_n(s,n-1)
 def run():
   n = input ("Enter an int: ")
   n = int(n)
